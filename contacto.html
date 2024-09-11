@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDENAR NUMEROS</title>
+    <link rel="stylesheet" href="css/estiloPrincipal.css">
+</head>
+<body class="contenedor">
+    <nav class="navbar">NAVBAR</nav>
+    <header class="header"> </header>
+    
+    <nav class="navbar">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/iconos/btn-menu.png" alt="">
+        </label>
+
+        <div class="menu">
+            <ul>
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="#">HISTORIA</a></li>
+                <li><a href="Galeria.html">GALERIA</a></li>
+                <li><a href="#">APLICACIONES</a>
+                    <ul class="submenu">
+                        <li><a href="calculadora.html">CALCULADORA</a></li>
+                        <li><a href="ordenar.html">ORDENA NUMEROS</a></li>
+                        <li><a href="#">CONDICIONALES</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main">
+        <h2>CONTACTO</h2>
+        <br>
+        <hr>
+        <br>
+        <form action="">
+        </form>
+            <label for="txtIdentification">IDENTIFICACION</label>
+            <br>
+            <input type="text" id="txtID" name="txtID" placeholder="Identification...">
+            <br><br>
+            <label for="txtNombre">NOMBRE</label>
+            <br>
+            <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre...">
+            <br><br>
+            <label for="txtApellidos">APELLIDOS</label>
+            <br>
+            <input type="text" id="txtApellidos" name="txtApellidos" placeholder="Apellidos...">
+            <br><br>
+            <label for="txtTelefono">Telefono</label>
+            <br>
+            <input type="text" id="txtTelefono" name="txtTelefono" placeholder="Telefono...">
+            <br><br>
+            <label for="txtDireccion">DIRECCCION</label>
+            <br>
+            <textarea name="txtDireccion" id="txtDireccion" cols="30" rows="5" placeholder="Direccion extra..."></textarea>
+            <br><br><hr><br>
+
+            <input type="button" value="ENVIAR" onclick="mensajes()"> &nbsp; &nbsp; <input type="reset" value="LIMPIAR">
+                 
+        </form>
+    </section>
+    <aside class="sidebar">
+        <div class="face">
+            <iframe src="https://www.facebook.com/plugins/page.php?
+            href=https%3A%2F%2Fwww.facebook.com%2Fctpmercedes&tabs=timeline&small_header=false&adapt_contain
+           er_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden"
+         scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+            </iframe>
+
+        </div>
+
+    </aside>
+    <footer class="footer">
+    <p>Colegio Tecnico Profesional</p>
+    <p>Mercedes Norte</p>
+    <p>&copy; 2024</p>
+
+    </footer>
+    <script src="js/ordena.js"></script>
+</body>
+</html>
